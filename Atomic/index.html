@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="js/main.js">
+</head>
+<body id="budy">
+  
+<!--nav-->
+
+    <nav id="navcor" class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul id="itensnave" class="navbar-nav">
+            <li class="nav-item active" style="background-color: #17aa5a;">
+              <a class="nav-link" href="#tudo">Produtos</a>
+            </li>
+            <li class="nav-item active" style="background-color: #17aa5a;">
+              <a class="nav-link" href="#sobre">Sobre nós</a>
+            </li>
+            <li class="nav-item active" style="background-color: #17aa5a;">
+              <a class="nav-link" href="#contactos">Contactos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>  
+
+<!--fim nav-->
+
+<!--banner-->
+
+<div id="pribanner">
+  <img src="media/banner.png" alt="">
+</div>
+
+<!--fim banner-->
+
+<!--bubidas-->
+<div id="tudo">
+
+<div class="row"> 
+  
+  <div class="column">
+    
+      <div class="container">
+          <img src="media/green.png" alt="" style="width: 100%;">
+          <div class="text-block" style="background-color: #9FCF7B;color: #75B260;position: absolute;bottom: 5px;left: 20px;padding-top: 5px; padding-left: 5px;padding-right: 5px;"> 
+            <h4>Green Punch</h4>
+            <p>A combinação mais simples com base em chá verde e ginseng.</p>
+          </div>
+        </div>
+        
+        <div class="container">
+            <img src="media/orange.png" alt="" style="width: 100%;">
+            <div class="text-block" style="background-color: #FCC198;color: #F15B22;position: absolute;bottom: 5px;left: 20px;padding-top: 5px; padding-left: 5px;padding-right: 5px;"> 
+              <h4>Orange Punch</h4>
+              <p>Uma fusão revitalizante com sumo de laranja e chá verde.</p>
+            </div>
+          </div>
+
+  </div>
+  
+  <div class="column">
+        
+      <div class="container">
+          <img src="media/pink.png" alt="" style="width: 100%;">
+          <div class="text-block" style="background-color: #F28FBB;color: #BE1E67;position: absolute;bottom: 5px;right: 20px;padding-top: 5px;padding-left: 5px;padding-right: 5px;text-align: right;"> 
+            <h4>Raspberry Punch</h4>
+            <p>Os sabores dos melhores frutos vermelhos com chá verde.</p>
+          </div>
+        </div>
+
+        <div class="container">
+            <img src="media/blue.png" alt="" style="width: 100%;">
+            <div class="text-block" style="background-color: #A0D9D6;color: #46C5E1;position: absolute;bottom: 5px;right: 20px;padding-top: 5px;padding-left: 5px;padding-right: 5px;text-align: right;"> 
+              <h4>Hawaian Punch</h4>
+              <p>Uma escolha com sabor a piña colada perfeita para dias de calor.</p>
+            </div>
+          </div
+
+  </div> 
+</div>
+</div>
+<!--fim bubidas-->
+
+<!--sobre-->
+
+
+<div id="sobre" class="card" style="width: 100%;">
+  <div class="card-body">
+    <h1 class="card-title">Sobre nós</h1>
+    <hr>
+    <p class="card-text">A Atomic Punch é a nova alternativa às bebidas energéticas habituais. Baseamo-nos em sabores familiares no mercado, tal como laranja, ou frutos vermelhos, para mostrar que não é preciso uma bebida a valer 7 cafés quando se tem uma alternativa mais leve e sem qualquer tipo de açucar.</p>
+    <h3 class="card-title">Porquê escolher-nos?</h3>
+    <p class="card-text">Procuramos sempre alternativas ao açucar e há caféina para as nossas bebidas, ao contrário de várias marcas que excedem os valores e agravam o risco de diabetes e doenças de coração para os seus consumidores.</p>
+    <p class="card-text">Pretendemos levar um sabor único, refrescante, e dar aquela vida extra ao nosso consumidor sem qualquer tipo de risco futuro.</p>
+  </div>
+</div>
+
+<!--fim sobre-->
+
+<!--contactos-->
+<div id="cg">
+  <div id="mapaG">
+        <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3107.5107347623466!2d-9.090980384381236!3d38.84366455771411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd192e88666be64d%3A0xce3fea090c739228!2sR.+Zeca+Afonso%2C+Santa+Iria+de+Azoia!5e0!3m2!1sen!2spt!4v1553873116060!5m2!1sen!2spt" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <div id="contactos">
+        <h1>Contactos</h1>
+        <h5>Email:geral@atomicpunch.pt</h5>
+        <h5>Telefone: 918 744 810</h5>
+        <h5>Rua Zeca Afonso n10 <br> 2690-390, Santa Iria de Azóia</h5>
+        <br>
+        <br>
+        <h3>Adira à nossa newsletter:</h3>
+        <form method="POST" action="nl.php">
+          <input id="nome" name="nome" placeholder="Nome" type="text">
+          <input id="email" name="email" placeholder="Email" type="text">
+          <button type="submit">Submeter</button>
+        </form>
+        <br>
+        <br>
+        <br>
+      <script>
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+<button onclick="topFunction()" id="topbutton" title="Voltar ao topo">Voltar ao topo</button>
+</div>
+  </div>
+</div>
+<!--contactos-->
+
+</body>
+</html>

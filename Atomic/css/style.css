@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta');
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#pribanner {
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+#pribanner img {
+    width: 100%;
+}
+
+#tudo {
+
+}
+
+
+.container {
+  position: relative;
+}
+
+.text-block {
+  font-family: 'Mukta', sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+ 
+
+#verde {
+    width:100%;
+}
+
+#rosa {
+    width:100%;
+}
+
+#laranja {
+    width:100%;
+}
+
+#azul {
+    width:100%;
+}
+
+#nl {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#cg {
+    background-color: #f4f4f4;
+    display: inherit;
+}
+
+#contactos {
+    background-color: #f4f4f4;
+    display: grid;
+    font-family: 'Mukta', sans-serif;
+    align-items: center;
+    float: right;
+    margin-bottom: 10%;
+    margin-right: 20%;
+}
+
+#mapaG {
+    background-color: #f4f4f4;
+    display: grid;
+    align-items: center;
+    float: left;
+}
+
+#mapa {
+        margin-top: 10%;
+        margin-left: 20%;
+        margin-bottom: 10%;
+        height: auto;
+        width: auto;
+        resize: both;
+        overflow: auto;
+}
+
+#sobre {
+    background-color: #f4f4f4;
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+}
+
+#budy {
+    background-color: #474848; 
+}
+
+#navcor {
+    background-color: #17aa5a;
+    color: #17aa5a;
+    padding: 0%;
+}
+
+#itensnave {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;  
+    background-color: #17aa5a;
+}
+
+#navbarNav {
+    font-family: 'Mukta', sans-serif;
+    background-color: #17aa5a;
+}
+
+/* The flip box container - set the width and height to whatever you want. 
+We have added the border property to demonstrate that the flip itself goes out of the box on hover 
+(remove perspective if you don't want the 3D effect */
+.flip-box {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px; 
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: auto;
+    height: auto;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-box-front {
+    background-color:#bbb;
+    color: black;
+    width: 100%;
+  }
+
+  #greenflip {
+    background-color: #9FCF7B;
+    color: #75B260;
+    transform: rotateY(180deg);
+    font-family: 'Mukta', sans-serif;
+  }
+  
+  #orangeflip {
+    background-color: #FCC198;
+    color: #F15B22;
+    transform: rotateY(180deg);
+    font-family: 'Mukta', sans-serif;
+  }
+
+  #blueflip {
+    background-color: #A0D9D6;
+    color: #46C5E1;
+    transform: rotateY(180deg);
+    font-family: 'Mukta', sans-serif;
+  }
+
+  #pinkflip {
+    background-color: #F28FBB;
+    color: #BE1E67;
+    transform: rotateY(180deg);
+    font-family: 'Mukta', sans-serif;
+  }
